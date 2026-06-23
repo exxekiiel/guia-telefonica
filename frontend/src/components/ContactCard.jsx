@@ -55,9 +55,9 @@ export default function ContactCard({ contacto, isAdmin, onEdit, onDelete }) {
           />
           <div className="flex gap-2">
             <input
-              type="number"
+              type="text"
               value={form.piso}
-              onChange={(e) => setForm({ ...form, piso: parseInt(e.target.value) || 0 })}
+              onChange={(e) => setForm({ ...form, piso: e.target.value })}
               className="w-24 px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 text-sm focus:border-turquesa focus:outline-none"
               placeholder="Piso"
               aria-label="Piso"

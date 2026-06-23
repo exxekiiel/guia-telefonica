@@ -1,13 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-manzana: #7CB342;
-  --color-manzana-light: #9CCC65;
-  --color-manzana-dark: #558B2F;
-  --color-turquesa: #00BCD4;
-  --color-turquesa-light: #4DD0E1;
-  --color-turquesa-dark: #0097A7;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Modo oscuro */
 .dark {
